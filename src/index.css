@@ -54,10 +54,8 @@ html {
     }
    
 }
-
 /* From Uiverse.io by vinodjangid07 */ 
 .input-wrapper {
-  
   height: 45px;
   border-radius: 20px;
   padding: 5px;
@@ -146,4 +144,27 @@ html {
 }
 .Subscribe-btn:active {
   transform: scale(0.9);
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .input-wrapper {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+  }
+  .icon {
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+  .input {
+    text-align: end;
+    padding : 2px;
+    max-width: 100%;
+    padding-left: 10px;
+    margin-bottom: 10px;
+  }
+  .Subscribe-btn {
+    width: 100%;
+  }
 }
